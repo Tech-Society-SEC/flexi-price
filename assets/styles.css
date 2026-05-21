@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+html, body, .stApp {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #0b1120;
+    color: #f8fafc;
+}
+
+/* Main container */
+.block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    max-width: 1400px;
+}
+
+/* Sidebar */
+[data-testid="stSidebar"] {
+    background-color: #111827;
+    border-right: 1px solid rgba(255,255,255,0.05);
+}
+
+/* Cards */
+.metric-card {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.06);
+    padding: 25px;
+    border-radius: 18px;
+    backdrop-filter: blur(12px);
+}
+
+/* Main title */
+.main-title {
+    font-size: 52px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #94a3b8;
+    margin-bottom: 40px;
+}
+
+/* Buttons */
+.stButton > button {
+    background: linear-gradient(
+        135deg,
+        #7c3aed,
+        #2563eb
+    );
+
+    color: white;
+    border: none;
+    border-radius: 14px;
+    height: 56px;
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+    transition: 0.3s ease;
+}
+
+.stButton > button:hover {
+    transform: translateY(-2px);
+    opacity: 0.95;
+}
+
+/* Inputs */
+.stNumberInput,
+.stSelectbox,
+.stSlider {
+    background: rgba(255,255,255,0.03);
+    border-radius: 12px;
+}
+
+/* Metrics */
+[data-testid="stMetric"] {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.05);
+    padding: 22px;
+    border-radius: 18px;
+}
+
+/* Result container */
+.result-box {
+    background: linear-gradient(
+        135deg,
+        rgba(124,58,237,0.18),
+        rgba(37,99,235,0.18)
+    );
+
+    padding: 45px;
+    border-radius: 24px;
+    text-align: center;
+    margin-top: 30px;
+    border: 1px solid rgba(255,255,255,0.08);
+}
+
+.result-price {
+    font-size: 64px;
+    font-weight: 700;
+    color: white;
+}
+
+.result-label {
+    color: #cbd5e1;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.small-card-title {
+    font-size: 15px;
+    color: #94a3b8;
+    margin-bottom: 10px;
+}
+
+.small-card-value {
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+}
